@@ -1,10 +1,6 @@
 source 'http://rubygems.org'
 
-group :runtime do
-  gem 'warden',              '~>0.10'
-  gem 'oauth2',              '~>0.0.8'
-  gem 'json',                '>=1.0.0'
-end
+gemspec
 
 group :test do
   gem 'rake'
